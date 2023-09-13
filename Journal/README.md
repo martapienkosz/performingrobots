@@ -1,4 +1,4 @@
-### Journal
+## Journal
 
 ### Sep 13: Sketch
 
