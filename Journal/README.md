@@ -2,11 +2,10 @@
 
 ## Sep 13: Sketch
 
-![](https://github.com/martapienkosz/performingrobots/blob/main/Journal/images/robotSketch.png)
+<img scr="https://github.com/martapienkosz/performingrobots/blob/main/Journal/images/robotSketch.png" width="250">
 
 
 ## Sep 18: Robot base
-
-![](https://github.com/martapienkosz/performingrobots/blob/main/Journal/images/base1.JPG)
-![](https://github.com/martapienkosz/performingrobots/blob/main/Journal/images/base2.JPG)
-![](https://github.com/martapienkosz/performingrobots/blob/main/Journal/images/base3.JPG)
+<img scr="https://github.com/martapienkosz/performingrobots/blob/main/Journal/images/base1.JPG" width="250">
+<img scr="https://github.com/martapienkosz/performingrobots/blob/main/Journal/images/base2.JPG" width="250">
+<img scr="https://github.com/martapienkosz/performingrobots/blob/main/Journal/images/base3.JPG" width="250">
