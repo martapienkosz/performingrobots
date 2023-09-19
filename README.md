@@ -12,7 +12,8 @@ Week four | Sep 18 & 20
 
 Reading assignment: [Machines/Mechanicals in Entangled, Chris Salter](https://github.com/martapienkosz/performingrobots/blob/main/september18/README.md)
 
-`void loop() {
+```
+void loop() {
 
   clockwise( 5000);
   stop();
@@ -40,4 +41,4 @@ void counterClockwise (int duration) {
   digitalWrite(3, LOW);
   delay(duration);
 }
-`
+```
