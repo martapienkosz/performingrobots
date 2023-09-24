@@ -12,33 +12,7 @@ Week four | Sep 18 & 20
 
 Reading assignment: [Machines/Mechanicals in Entangled, Chris Salter](https://github.com/martapienkosz/performingrobots/blob/main/september18/README.md)
 
-```
-void loop() {
 
-  clockwise( 5000);
-  stop();
-  delay(1000); // allow it to stop
+Week five | Sep 25 & 27
 
-  // now reverse direction
-  counterClockwise( 5000);
-  stop();
-  delay(1000); // allow it to stop
-}
-
-void clockwise (int duration) {
-  digitalWrite(2, LOW);
-  digitalWrite(3, HIGH);
-  delay(duration);
-}
-
-void stop() {
-  digitalWrite(2, LOW);
-  digitalWrite(3, LOW);
-}
-
-void counterClockwise (int duration) {
-  digitalWrite(2, HIGH);
-  digitalWrite(3, LOW);
-  delay(duration);
-}
-```
+[Video](https://drive.google.com/file/d/1wPHSB10Bv_8FZnjBgpi8fW67YAzmlqHU/view?usp=share_link) & [code](https://github.com/martapienkosz/performingrobots/blob/main/code/theQueue.ino)
