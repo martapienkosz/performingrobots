@@ -9,31 +9,31 @@ void setup() {
 void loop() {
 
   for (int i = 0; i < 3; i = i+1) {
-    backward(500); // 0.5m
+    backward(500); // move 0.5m
     stop(2000);
   }
 
-  turnClockwise(300);
+  turnClockwise(300); // turn 90 degrees
   stop(1000);
-  backward(300); // 0.5m
+  backward(300);
   stop(2000);
   turnClockwise(300);
   stop(1000);
 
   for (int i = 0; i < 2; i = i+1) {
-    backward(500); // 0.5m
+    backward(500);
     stop(2000);
   }
 
   antiClockwise(300);
   stop(1000);
-  backward(300); // 0.5m
+  backward(300);
   stop(2000);
   antiClockwise(300);
   stop(1000);
 
   for (int i = 0; i < 2; i = i+1) {
-    backward(500); // 0.5m
+    backward(500);
     stop(2000);
   }
 }
