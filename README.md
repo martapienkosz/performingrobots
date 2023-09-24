@@ -17,4 +17,4 @@ Reading assignment: [Machines/Mechanicals in Entangled, Chris Salter](https://gi
 
 #### Week five | Sep 25 & 27
 
-The Airport Imigration Story [Video](https://drive.google.com/file/d/1wPHSB10Bv_8FZnjBgpi8fW67YAzmlqHU/view?usp=share_link) & [code](https://github.com/martapienkosz/performingrobots/blob/main/code/theQueue.ino)
+The Airport Imigration Story: [Video](https://drive.google.com/file/d/1wPHSB10Bv_8FZnjBgpi8fW67YAzmlqHU/view?usp=share_link) & [code](https://github.com/martapienkosz/performingrobots/blob/main/code/theQueue.ino)
