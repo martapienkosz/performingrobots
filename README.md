@@ -1,7 +1,7 @@
 # performingrobots
 ### by Marta Pienkosz
 
-Week three | Sep 13
+#### Week three | Sep 13
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robotSketch.png" width="300">
 
