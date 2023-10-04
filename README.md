@@ -15,4 +15,9 @@ Reading assignment: [Machines/Mechanicals in Entangled, Chris Salter](https://gi
 
 Week five | Sep 25 & 27
 
-[Video](https://drive.google.com/file/d/1wPHSB10Bv_8FZnjBgpi8fW67YAzmlqHU/view?usp=share_link) & [code](https://github.com/martapienkosz/performingrobots/blob/main/code/theQueue.ino)
+[Video](https://drive.google.com/file/d/1wPHSB10Bv_8FZnjBgpi8fW67YAzmlqHU/view?usp=share_link) & [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Sep25_Short_story.ino)
+
+
+Week six | Oct 2 & 4
+
+Hobby RC remote control [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct2_Hobby_RC_Remote_control.ino) & Music Maker Shield [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct4_Music.ino)
