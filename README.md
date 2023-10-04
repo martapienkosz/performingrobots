@@ -21,7 +21,8 @@ Reading assignment: [Machines/Mechanicals in Entangled, Chris Salter](https://gi
 
 
 #### Week six | Oct 2 & 4
-*Hobby RC remote control [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct2_RC_Control.ino) & [video]()
+*hi
+* Hobby RC remote control [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct2_RC_Control.ino) & [video]()
 
 *Music Maker Shield by downloading the `Adafruit_VS1053` library and choosing `player_simple` [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct4_Music_Maker.ino)
 
