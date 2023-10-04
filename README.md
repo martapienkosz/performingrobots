@@ -13,7 +13,7 @@
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/base1.JPG" width="200"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/base2.JPG" width="200"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/base6.JPG" width="200">
 
-*Reading assignment: [Machines/Mechanicals in Entangled, Chris Salter](https://github.com/martapienkosz/performingrobots/blob/main/september18/README.md)
+* Reading assignment: [Machines/Mechanicals in Entangled, Chris Salter](https://github.com/martapienkosz/performingrobots/blob/main/september18/README.md)
 
 
 #### Week five | Sep 25 & 27
@@ -21,8 +21,6 @@
 
 
 #### Week six | Oct 2 & 4
-*Hobby RC remote control [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct2_RC_Control.ino) & [video]()
-
-*Music Maker Shield by downloading the `Adafruit_VS1053` library and choosing `player_simple` [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct4_Music_Maker.ino)
-
-*Pixel [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct2_NeoPixel.ino)
+* Hobby RC remote control [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct2_RC_Control.ino) & [video]()
+* Music Maker Shield by downloading the `Adafruit_VS1053` library and choosing `player_simple` [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct4_Music_Maker.ino)
+* Pixel [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct2_NeoPixel.ino)
