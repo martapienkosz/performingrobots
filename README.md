@@ -2,8 +2,6 @@
 ### by Marta Pienkosz
 
 #### Week three | Sep 13
-*Sketch
-
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robotSketch.png" width="300">
 
 
@@ -26,4 +24,4 @@
 * Music Maker Shield by downloading the `Adafruit_VS1053` library and choosing `player_simple` [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct4_Music_Maker.ino)
 * Pixel [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct2_NeoPixel.ino)
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/NeoPixels.JPG" width="200">
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/NeoPixels.JPG" width="400">
