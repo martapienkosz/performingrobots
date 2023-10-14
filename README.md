@@ -39,4 +39,5 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
     * Act 4: Collaboration: The robots collaborate to find balance between autonomy and ethics, striving for harmony between human and machine agency. The play ends with a choreographed sequence symbolizing their newfound understanding and commitment to ethical decision-making.
 
 
+
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/pixelsimage.png" width="600">
