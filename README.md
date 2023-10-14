@@ -34,4 +34,4 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
 
 * Play proposal:
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/pixelsimage.png" width="400">
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/pixelsimage.png" width="600">
