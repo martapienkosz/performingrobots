@@ -21,5 +21,5 @@ Nam June Paik's artistic vision invites us to not only appreciate his pioneering
 * Barrett, G.D. "Technological Catastrophe and the Robots of Nam June Paik." Cultural Critique, no. 118, 2023, pp. 56-82.
 * Grunenberg, Christopher, and Beat Wismer. "Forefront." Nam June Paik. Tate Publishing, London, 2010.
 * Lee, S. "Videa 'n' Videology Open Communication." Nam June Paik. Tate Publishing, London, 2010.
-* *un, Michelle. "Evolution, Revolution, Resolution." Nam June Paik: Becoming the Robot. Yale University Press, New Haven, 2014.
+* Yun, Michelle. "Evolution, Revolution, Resolution." Nam June Paik: Becoming the Robot. Yale University Press, New Haven, 2014.
 * Zinman, Gregory. "Reading Nam June Paik." Gagosian Quarterly, Winter 2019 Issue, 2019

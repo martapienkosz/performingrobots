@@ -45,5 +45,4 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
 * [Play script](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit)
     * Our character desciption:
 * New Robot Design
-* [Midterm Paper on Nam June Paik](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md), [editable version](https://docs.google.com/document/d/15sCEuyT24rc2AY0etWmMdzIhmmWujh86FVLiN_Bk-iU/edit?usp=share_link) & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
-
+* [Midterm Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
