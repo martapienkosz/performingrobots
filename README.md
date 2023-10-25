@@ -41,3 +41,9 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
     * Act 3: The Rebellion: One robot leads a rebellion against their human-assigned roles, making choices that impact human lives directly. They start moving with tension, but soon realize the hurtful consequences of their choices, prompting them to recognize the intricate interplay between autonomy and ethics.
     * Act 4: Collaboration: The robots collaborate to find balance between autonomy and ethics, striving for harmony between human and machine agency. The play ends with a choreographed sequence symbolizing their newfound understanding and commitment to ethical decision-making.
 
+#### Week nine | Oct 28
+* [Play script](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit)
+    * Our character desciption:
+* New Robot Design
+* [Midterm Paper on Nam June Paik](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md), [editable version](https://docs.google.com/document/d/15sCEuyT24rc2AY0etWmMdzIhmmWujh86FVLiN_Bk-iU/edit?usp=share_link) & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
+
