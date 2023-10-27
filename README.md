@@ -42,7 +42,12 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
     4. Collaboration: The robots collaborate to find balance between autonomy and ethics, striving for harmony between human and machine agency. The play ends with a choreographed sequence symbolizing their newfound understanding and commitment to ethical decision-making.
 
 #### Week nine | Oct 28
-* [Play script](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit)
-    * Our character desciption:
-* New Robot Design
 * [Midterm Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
+* [Play script](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit)
+    * Our robot belongs to a typical middle-class family living in the suburbs. Mr. Smith is a software engineer, Mrs. Smith teaches high school, Amy is a bright high school student, and Sam is a typical pre-teen with a love for video games and comics.
+    * Quick to offer intrusive advice, form judgments, and gossip; lacks patience in communication; procrastination and forgetful; prefers following a rigid routine; struggles to grasp social nuances and understand non-conventional choices.
+* New Robot Design
+    * We've decided to create a family-friendly robot primarily aimed at kids. What better captures the essence of childhood than LEGO?
+    * We plan to reuse our current base since its dimensions align with our new design, and we have ensured that all components were properly mounted.
+
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newSketch.png" width="300">
