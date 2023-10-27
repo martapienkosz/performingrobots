@@ -50,4 +50,4 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
     * We've decided to create a family-friendly robot primarily aimed at kids. What better captures the essence of childhood than LEGO?
     * We plan to reuse our current base since its dimensions align with our new design, and we have ensured that all components were properly mounted.
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newSketch.png" width="300">
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newSketch.PNG" width="500">
