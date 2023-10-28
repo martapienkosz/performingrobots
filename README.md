@@ -46,6 +46,7 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
 * [Play script](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit)
     * Our robot belongs to a typical middle-class family living in the suburbs. Mr. Smith is a software engineer, Mrs. Smith teaches high school, Amy is a bright high school student, and Sam is a typical pre-teen with a love for video games and comics.
     * Quick to offer intrusive advice, form judgments, and gossip; lacks patience in communication; procrastination and forgetful; prefers following a rigid routine; struggles to grasp social nuances and understand non-conventional choices.
+    * Fam-robot (Windows) together with Corpo-Robot (Mac) and TechGuru-Robot (Linux) engage in a playful discussion, personifying the characteristics of different computer operating systems. Mac criticizes Windows for its inefficiency, Windows defends itself as the practical choice, and Linux boasts about its control and flexibility. Despite their differences, they ultimately acknowledge the value in appreciating each other's strengths and weaknesses, alluding to the coexistence of these operating systems in the tech world.
 * New Robot Design
     * We've decided to create a family-friendly robot primarily aimed at kids. What better captures the essence of childhood than LEGO?
     * We plan to reuse our current base since its dimensions align with our new design, and we have ensured that all components were properly mounted.
