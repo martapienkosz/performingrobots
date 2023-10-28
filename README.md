@@ -1,5 +1,6 @@
 # performingrobots by Marta Pienkosz
-Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08QuTGIRCDjYcexdwl14QQ8?usp=share_link)
+Shortcut to [today's assignment](#todays-assignment)
+Google Drive [link](https://drive.google.com/drive/folders/1GdTAjQBxp08QuTGIRCDjYcexdwl14QQ8?usp=share_link)
 
 #### Week three | Sep 11 & 13
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/firstSketch.png" width="800">
@@ -40,6 +41,9 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
     2. The Exploration: The robots explore thinking independently, showcasing their own emotions and behaving impulsively. Through that, they encounter various ethical dilemmas as they navigate a world that is not designed to accommodate beings like themselves. They struggle to navigate the blurred boundaries between human control and their independent choices. Their differing opinions spark conflicts within the group.
     3. The Rebellion: One robot leads a rebellion against their human-assigned roles, making choices that impact human lives directly. They start moving with tension, but soon realize the hurtful consequences of their choices, prompting them to recognize the intricate interplay between autonomy and ethics.
     4. Collaboration: The robots collaborate to find balance between autonomy and ethics, striving for harmony between human and machine agency. The play ends with a choreographed sequence symbolizing their newfound understanding and commitment to ethical decision-making.
+
+
+#ltodays-assignment
 
 #### Week nine | Oct 28
 * [Midterm Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
