@@ -1,6 +1,5 @@
 # performingrobots by Marta Pienkosz
 Shortcut to [today's assignment](#todays-assignment)
-Google Drive [link](https://drive.google.com/drive/folders/1GdTAjQBxp08QuTGIRCDjYcexdwl14QQ8?usp=share_link)
 
 #### Week three | Sep 11 & 13
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/firstSketch.png" width="800">
@@ -43,7 +42,7 @@ Google Drive [link](https://drive.google.com/drive/folders/1GdTAjQBxp08QuTGIRCDj
     4. Collaboration: The robots collaborate to find balance between autonomy and ethics, striving for harmony between human and machine agency. The play ends with a choreographed sequence symbolizing their newfound understanding and commitment to ethical decision-making.
 
 
-#ltodays-assignment
+#todays-assignment
 
 #### Week nine | Oct 28
 * [Midterm Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
