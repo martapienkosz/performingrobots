@@ -2,7 +2,7 @@
 Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08QuTGIRCDjYcexdwl14QQ8?usp=share_link)
 
 #### Week three | Sep 11 & 13
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robotSketch.png" width="300">
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/firstSketch.png" width="300">
 
 
 #### Week four | Sep 18 & 20
@@ -51,4 +51,4 @@ Google Drive videos [link](https://drive.google.com/drive/folders/1GdTAjQBxp08Qu
     * We've decided to create a family-friendly robot primarily aimed at kids. What better captures the essence of childhood than LEGO?
     * We plan to reuse our current base since its dimensions align with our new design, and we have ensured that all components were properly mounted.
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newSketch.PNG" width="500">
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/secondSketch.png" width="300">
