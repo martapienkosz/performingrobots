@@ -25,10 +25,12 @@ Shortcut to [today's assignment](#todays-assignment)
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/NeoPixels.JPG" width="800">
 
+
 #### Week seven | Oct 9 & 11
 * Building a robot body and driving the robot [video](https://drive.google.com/file/d/1oRCWsjeOoaS8MQXJ9qR_Gr60t8DB2Fk5/view?usp=share_link) and [another one](https://drive.google.com/file/d/10178UKeu-vDTxLXOE0fCPbQp0ZSXJSZA/view?usp=share_link)
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robotbody.JPG" width="400"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robotbody2.JPG" width="400">
+
 
 #### Week eight | Oct 16 & 18
 * NeoMatrix and Music Player [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Oct17_Pixels_and_Music.ino) & [video](https://drive.google.com/file/d/1OB98lKPGqWnSMJT72GDaqnAHx3TQvoBS/view?usp=share_link)
@@ -42,10 +44,12 @@ Shortcut to [today's assignment](#todays-assignment)
     4. Collaboration: The robots collaborate to find balance between autonomy and ethics, striving for harmony between human and machine agency. The play ends with a choreographed sequence symbolizing their newfound understanding and commitment to ethical decision-making.
 
 
-#### todays-assignment
-
 #### Week nine | Oct 28
 * [Midterm Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
+
+
+#### todays-assignment
+#### Week ten | Oct 30 and Nov 1
 * [Play script](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit)
     * Identity: Our robot belongs to a typical middle-class family living in the suburbs. Mr. Smith is a software engineer, Mrs. Smith teaches high school, Amy is a bright high school student, and Sam is a typical pre-teen with a love for video games and comics. The robot is quick to offer intrusive advice, form judgments, and gossip; lacks patience in communication; procrastination and forgetful; prefers following a rigid routine; struggles to grasp social nuances and understand non-conventional choices.
     * Plot for the drama: Fam-robot (Windows) together with Corpo-Robot (Mac) and TechGuru-Robot (Linux) engage in a playful discussion, personifying the characteristics of different computer operating systems. Mac criticizes Windows for its inefficiency, Windows defends itself as the practical choice, and Linux boasts about its control and flexibility. Despite their differences, they ultimately acknowledge the value in appreciating each other's strengths and weaknesses, alluding to the coexistence of these operating systems in the tech world.
