@@ -45,10 +45,9 @@ Shortcut to [today's assignment](#todays-assignment)
 
 
 #### Week nine | Oct 28
-* [Midterm Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
+* [Artist Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1n78sx_TzQM7ohDqoPjdqNwkaE9hbZ6EHVJMnZWzKmtI/edit?usp=sharing)
 
 
-#### todays-assignment
 #### Week ten | Oct 30 and Nov 1
 * [Play script](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit)
     * Identity: Our robot belongs to a typical middle-class family living in the suburbs. Mr. Smith is a software engineer, Mrs. Smith teaches high school, Amy is a bright high school student, and Sam is a typical pre-teen with a love for video games and comics. The robot is quick to offer intrusive advice, form judgments, and gossip; lacks patience in communication; procrastination and forgetful; prefers following a rigid routine; struggles to grasp social nuances and understand non-conventional choices.
@@ -58,3 +57,22 @@ Shortcut to [today's assignment](#todays-assignment)
     * We plan to reuse our current base since its dimensions align with our new design, and we have ensured that all components were properly mounted.
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/secondSketch.png" width="800">
+
+
+#### todays-assignment
+#### Week eleven | Nov 6 and 8
+* Finishing [play script](https://docs.google.com/document/d/1THt3NI6B_j0cJAwRhKGbFZDU0syxH9ymHoYNkrd0hv4/edit#heading=h.ntjzrqg3dtq1)
+* Working on the robot
+
+
+#### Week eleven | Nov 13 and 15
+* [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1Hzh87X2DnfM9I4aLieHt587dGxmusbeb39OPa0N7LHU/edit?usp=share_link)
+* Finishing up the robot
+    * All robots must be mechanically and electrically functional. Decorations, painting, accessories, etc. can be added later.
+    * Robots must be able to perform all the functions described in the script:
+    * Locomotion (driving around)
+    * Local movement (servo motors, other actuators)
+    * LED activity
+    * Speaking
+
+
