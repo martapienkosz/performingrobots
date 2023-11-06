@@ -64,6 +64,8 @@ Shortcut to [today's assignment](#todays-assignment)
 * Finishing [play script](https://docs.google.com/document/d/1THt3NI6B_j0cJAwRhKGbFZDU0syxH9ymHoYNkrd0hv4/edit#heading=h.ntjzrqg3dtq1)
 * Working on the robot
 
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_2.JPG" width="266"> 
+
 
 #### Week eleven | Nov 13 and 15
 * [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1Hzh87X2DnfM9I4aLieHt587dGxmusbeb39OPa0N7LHU/edit?usp=share_link)
@@ -74,5 +76,6 @@ Shortcut to [today's assignment](#todays-assignment)
     * Local movement (servo motors, other actuators)
     * LED activity
     * Speaking
+
 
 
