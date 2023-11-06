@@ -66,6 +66,7 @@ Shortcut to [today's assignment](#todays-assignment)
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_2.JPG" width="266"> 
 
+* Mounting and programing Servo motor [video](https://drive.google.com/file/d/1HPpB3Dgto8EHH2iiZ2nrMb3g5yxPRTfa/view?usp=share_link) and [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov6_ServoMotor.ino)
 
 #### Week eleven | Nov 13 and 15
 * [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1Hzh87X2DnfM9I4aLieHt587dGxmusbeb39OPa0N7LHU/edit?usp=share_link)
@@ -76,6 +77,3 @@ Shortcut to [today's assignment](#todays-assignment)
     * Local movement (servo motors, other actuators)
     * LED activity
     * Speaking
-
-
-
