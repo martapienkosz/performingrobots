@@ -68,6 +68,8 @@ Shortcut to [today's assignment](#todays-assignment)
 
 * Mounting and programing Servo motor [video](https://drive.google.com/file/d/1HPpB3Dgto8EHH2iiZ2nrMb3g5yxPRTfa/view?usp=share_link) and [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov6_ServoMotor.ino)
 
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_3.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_4.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_5.JPG" width="266"> 
+
 #### Week eleven | Nov 13 and 15
 * [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1Hzh87X2DnfM9I4aLieHt587dGxmusbeb39OPa0N7LHU/edit?usp=share_link)
 * Finishing up the robot
