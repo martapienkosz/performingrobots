@@ -49,7 +49,7 @@ Shortcut to [today's assignment](#todays-assignment)
 
 
 #### Week ten | Oct 30 and Nov 1
-* [Play script](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit)
+* [Play script draft](https://docs.google.com/document/d/1nOEF6REy5CgL2KIhYRLTIqgwFIGuVX1MHaLyYVF0rk8/edit) & [final version](https://docs.google.com/document/d/1THt3NI6B_j0cJAwRhKGbFZDU0syxH9ymHoYNkrd0hv4/edit#heading=h.ntjzrqg3dtq1)
     * Identity: Our robot belongs to a typical middle-class family living in the suburbs. Mr. Smith is a software engineer, Mrs. Smith teaches high school, Amy is a bright high school student, and Sam is a typical pre-teen with a love for video games and comics. The robot is quick to offer intrusive advice, form judgments, and gossip; lacks patience in communication; procrastination and forgetful; prefers following a rigid routine; struggles to grasp social nuances and understand non-conventional choices.
     * Plot for the drama: Fam-robot (Windows) together with Corpo-Robot (Mac) and TechGuru-Robot (Linux) engage in a playful discussion, personifying the characteristics of different computer operating systems. Mac criticizes Windows for its inefficiency, Windows defends itself as the practical choice, and Linux boasts about its control and flexibility. Despite their differences, they ultimately acknowledge the value in appreciating each other's strengths and weaknesses, alluding to the coexistence of these operating systems in the tech world.
 * New Robot Design
@@ -60,26 +60,18 @@ Shortcut to [today's assignment](#todays-assignment)
 
 
 #### Week eleven | Nov 6 and 8
-* Finishing [play script](https://docs.google.com/document/d/1THt3NI6B_j0cJAwRhKGbFZDU0syxH9ymHoYNkrd0hv4/edit#heading=h.ntjzrqg3dtq1)
-* Working on the robot
-    * Creating a robot body with plywood, installing servo motors, adding a lazy Susan to facilitate head movement and designing the head to accommodate a NeoPixel matrix
-    * Mounting and programing Servo motor [video](https://drive.google.com/file/d/1HPpB3Dgto8EHH2iiZ2nrMb3g5yxPRTfa/view?usp=share_link) and [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov6_ServoMotor.ino)
+* Crafting a robot body from plywood, installing servo motors, mounting lazy Susan for fluid head movement, and designing the head to house a NeoPixel matrix.
+* Programing Servo motor [video](https://drive.google.com/file/d/1HPpB3Dgto8EHH2iiZ2nrMb3g5yxPRTfa/view?usp=share_link) and [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov6_ServoMotor.ino)
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_3.JPG" width="266">
 
 
 #### todays-assignment
 #### Week eleven | Nov 13 and 15
-* Finishing up the robot: locomotion, LED activity, speaking
-* Connecting everything to the servo shields
-    * Soldering the wires to header sockets
-    * List of active pins
-        * M1 - 19
-        * M2 - 21
-        * M3 - 20
-        * M4 - 16
-        * M5 - 18
-        * M6 - 17
+* Soldering wires to header sockets and connecting them to servo shields for seamless integration of locomotion, LED activity, and speech.
+* Servo shields active pins
+    * M1——19; M2——21; M3——20
+    * M4——16; M5——18; M6——17
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_4.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_5.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_6.JPG" width="266"> 
 
