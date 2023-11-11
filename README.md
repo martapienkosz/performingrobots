@@ -63,19 +63,30 @@ Shortcut to [today's assignment](#todays-assignment)
 #### Week eleven | Nov 6 and 8
 * Finishing [play script](https://docs.google.com/document/d/1THt3NI6B_j0cJAwRhKGbFZDU0syxH9ymHoYNkrd0hv4/edit#heading=h.ntjzrqg3dtq1)
 * Working on the robot
+    * Creating a robot body with plywood, installing servo motors, adding a lazy Susan to facilitate head movement and designing the head to accommodate a NeoPixel matrix
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_2.JPG" width="266"> 
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_3.JPG" width="266">
 
 * Mounting and programing Servo motor [video](https://drive.google.com/file/d/1HPpB3Dgto8EHH2iiZ2nrMb3g5yxPRTfa/view?usp=share_link) and [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov6_ServoMotor.ino)
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_3.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_4.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_5.JPG" width="266"> 
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_4.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_5.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_6.JPG" width="266"> 
 
 #### Week eleven | Nov 13 and 15
-* [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Nam June Paik & [presentation](https://docs.google.com/presentation/d/1Hzh87X2DnfM9I4aLieHt587dGxmusbeb39OPa0N7LHU/edit?usp=share_link)
-* Finishing up the robot
-    * All robots must be mechanically and electrically functional. Decorations, painting, accessories, etc. can be added later.
-    * Robots must be able to perform all the functions described in the script:
-    * Locomotion (driving around)
-    * Local movement (servo motors, other actuators)
+* Finishing up the robot: 
+    * Locomotion, Servo motor + lazy Susan
     * LED activity
     * Speaking
+
+* Connecting everything to the servo shields
+    * Soldering the wires to header sockets
+    * List of active pins
+        * M1 - 19
+        * M2 - 21
+        * M3 - 20
+        * M4 - 16
+        * M5 - 18
+        * M6 - 17
+
+
+#### Week eleven | Nov 20 and 21
+* [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Artificial Moral Agents & [presentation](https://docs.google.com/presentation/d/1Hzh87X2DnfM9I4aLieHt587dGxmusbeb39OPa0N7LHU/edit?usp=share_link)
