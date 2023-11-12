@@ -68,7 +68,7 @@ Shortcut to [today's assignment](#todays-assignment)
 
 #### todays-assignment
 #### Week eleven | Nov 13 and 15
-* [Code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov12_Matrices_and_Servo.ino) & [video](https://drive.google.com/file/d/1JEoxXj_feRjXphU68RnTHV0Zn_vCmnm2/view?usp=share_link)
+* Finising up the robot [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov12_Matrices_and_Servo.ino) & [video](https://drive.google.com/file/d/1JEoxXj_feRjXphU68RnTHV0Zn_vCmnm2/view?usp=share_link)
 * Soldering wires to header sockets and connecting them to servo shields for seamless integration of locomotion, LED activity, and speech.
 * Servo shields active pins
     * M1——19; M2——21; M3——20
