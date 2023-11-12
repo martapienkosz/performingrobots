@@ -63,18 +63,18 @@ Shortcut to [today's assignment](#todays-assignment)
 * Crafting a robot body from plywood, installing servo motors, mounting lazy Susan for fluid head movement, and designing the head to house a NeoPixel matrix.
 * Programing Servo motor [video](https://drive.google.com/file/d/1HPpB3Dgto8EHH2iiZ2nrMb3g5yxPRTfa/view?usp=share_link) and [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov6_ServoMotor.ino)
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_3.JPG" width="266">
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_9.JPG" width="266">
 
 
 #### todays-assignment
 #### Week eleven | Nov 13 and 15
+* [Code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov12_Matrices_and_Servo.ino) & [video](https://drive.google.com/file/d/1JEoxXj_feRjXphU68RnTHV0Zn_vCmnm2/view?usp=share_link)
 * Soldering wires to header sockets and connecting them to servo shields for seamless integration of locomotion, LED activity, and speech.
 * Servo shields active pins
     * M1——19; M2——21; M3——20
     * M4——16; M5——18; M6——17
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_4.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_5.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_6.JPG" width="266"> 
-
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_8.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_3.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_4.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_5.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_6.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_7.JPG" width="266"> 
 
 
 #### Week eleven | Nov 20 and 21
