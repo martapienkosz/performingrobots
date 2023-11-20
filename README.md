@@ -82,5 +82,5 @@ Shortcut to [today's assignment](#todays-assignment)
 * Remote Control panel [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov20_RC_Panel.ino) 
 * Finishing up the robot design: LEGO brick
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/nlego_3.JPG" width="266">
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_3.JPG" width="266">
 
