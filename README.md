@@ -83,4 +83,4 @@ Shortcut to [today's assignment](#todays-assignment)
     * Enhance stability by adding weight to the robot
 
 #### Week eleven | Nov 20 and 21
-* [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Artificial Moral Agents & [presentation](https://docs.google.com/presentation/d/1Hzh87X2DnfM9I4aLieHt587dGxmusbeb39OPa0N7LHU/edit?usp=share_link)
+* [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Artificial Moral Agents & [presentation](https://docs.google.com/presentation/d/1GGrTwEHWgcR9u4jyT3kyMGWmuMf9rPpEEuinUK-NRqM/edit?usp=sharing)
