@@ -79,7 +79,7 @@ Shortcut to [today's assignment](#todays-assignment)
 #### todays-assignment
 #### Week eleven | Nov 20 and 21
 * [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Artificial Moral Agents & [presentation](https://docs.google.com/presentation/d/1GGrTwEHWgcR9u4jyT3kyMGWmuMf9rPpEEuinUK-NRqM/edit?usp=sharing)
-* Remote Control panel [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov20_RC_Panel.ino) & v[video](https://drive.google.com/file/d/1EHngJ6X8l6sXPHnluXphrqJp7ld21_74/view?usp=share_link)
+* Remote Control panel [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov20_RC_Panel.ino) & [video](https://drive.google.com/file/d/1EHngJ6X8l6sXPHnluXphrqJp7ld21_74/view?usp=share_link)
 * Finishing up the robot design: LEGO brick
 
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_3.JPG" width="266">
