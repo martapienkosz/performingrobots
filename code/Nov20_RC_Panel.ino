@@ -108,9 +108,8 @@ void setupRF24Common() {
   radio.setPALevel(RF24_POWER_LEVEL);
 }
 
-/*
 // Transmitter code
-
+/*
 // Transmitter pin usage
 const int LCD_RS_PIN = 3, LCD_EN_PIN = 2, LCD_D4_PIN = 4, LCD_D5_PIN = 5, LCD_D6_PIN = 6, LCD_D7_PIN = 7;
 const int SW1_PIN = 8, SW2_PIN = 9, SW3_PIN = 10, SW4_PIN = A3, SW5_PIN = A2;
@@ -140,15 +139,13 @@ void updateLCD() {
 }
 
 void countDown() {
-  if (--data.stateNumber < 0) {
-    data.stateNumber = 0;
-  }
+  data.stateNumber = (data.stateNumber > 0) ? (data.stateNumber - 1) : 0;
   updateLCD();
 }
 
 void countUp() {
   if (++data.stateNumber >= NUM_OF_STATES) {
-    data.stateNumber = NUM_OF_STATES;
+    data.stateNumber = NUM_OF_STATES - 1;
   }
   updateLCD();
 }
@@ -273,9 +270,9 @@ void clearData() {
   // set all fields to 0
   data.stateNumber = 0;
 }
-
-// End of transmitter code
 */
+// End of transmitter code
+
 
   // Receiver Code
 
@@ -306,14 +303,14 @@ void clearData() {
   Adafruit_VS1053_FilePlayer musicPlayer = Adafruit_VS1053_FilePlayer(SHIELD_RESET, SHIELD_CS, SHIELD_DCS, DREQ, CARDCS);
 
   // Servo motors
-  const int NECK_SERVO_PIN = 17; // TODO why doesn't pin 21 work?
+  const int SERVO_PIN = 16; // TODO why doesn't pin 21 work?
   //const int ANTENNA_SERVO_PIN = 10;
   //const int TAIL_SERVO_PIN = 11;
   //const int GRABBER_SERVO_PIN = 12;
 
   // Neopixel
-  const int NEOPIXELPIN = 18;
-  const int NUMPIXELS = 64;
+  const int NEOPIXELPIN = 17;
+  const int NUMPIXELS = 128;
   //#define NEOPIXELPIN 18
   //#define NUMPIXELS 64  // change to fit
   //Adafruit_NeoPixel pixels(NUMPIXELS, NEOPIXELPIN, NEO_GRB + NEO_KHZ800);
@@ -324,9 +321,12 @@ void clearData() {
 
   Servo neck;  // change names to describe what's moving
 
+
   // change as per your robot
-  const int NECK_LEFT = 45;
-  const int NECK_RIGHT = 90;
+  const int NECK_LEFT = 60;
+  const int NECK_RIGHT = 180;
+  const int NECK_CENTER = 130; 
+
 
   void setup() {
   Serial.begin(9600);
@@ -380,13 +380,9 @@ void clearData() {
   }
 
   void setupServoMotors() {
-  neck.attach(NECK_SERVO_PIN);
+  neck.attach(SERVO_PIN);
   neck.write(90);
-  //  antenna.attach(ANTENNA_SERVO_PIN);
-  //  tail.attach(TAIL_SERVO_PIN);
-  //  grabber.attach(GRABBER_SERVO_PIN);
-  //
-  //  tail.write(TAIL_HAPPY);
+ 
   }
 
   void setupNeoPixels() {
@@ -438,18 +434,13 @@ void clearData() {
         // display something on LEDs
         break;
       case 1:
-        Serial.print(F("moving nose and drawing rectangle"));
-        neck.write(180);
-
-        matrix.drawRect(2, 2, 5, 5, matrix.Color(200, 90, 30));
-        matrix.show();
-
-        Serial.println(F("Playing track 002"));
-        musicPlayer.startPlayingFile("/track002.mp3");
+     neck.write(NECK_CENTER);
 
         break;
       case 2:
-        neck.write(30);
+        neck.write(NECK_RIGHT);
+        
+        //nose.write(30);
 
         matrix.drawRect(2, 2, 5, 5, matrix.Color(0, 200, 30));
         matrix.show();
@@ -459,7 +450,6 @@ void clearData() {
         break;
       case 3:
 
-        neck.write(NECK_RIGHT);
         break;
       case 4:
 
@@ -474,4 +464,3 @@ void clearData() {
   }
   }  // end of loop()
   // end of receiver code
-  
