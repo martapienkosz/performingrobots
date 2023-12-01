@@ -66,7 +66,7 @@ Shortcut to [today's assignment](#todays-assignment)
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_9.JPG" width="266">
 
 
-#### Week eleven | Nov 13 and 15
+#### Week twelve | Nov 13 and 15
 * Finishing up the robot mechanics [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov12_Matrices_and_Servo.ino) & [video](https://drive.google.com/file/d/1JEoxXj_feRjXphU68RnTHV0Zn_vCmnm2/view?usp=share_link)
 * Soldering wires to header sockets and connecting them to servo shields for seamless integration of locomotion, LED activity, and speech.
 * Servo shields active pins
@@ -76,7 +76,7 @@ Shortcut to [today's assignment](#todays-assignment)
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_8.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_3.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_4.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_5.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_6.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/newRobot_7.JPG" width="266"> 
 
 
-#### Week eleven | Nov 20 and 21
+#### Week thirteen | Nov 20 and 21
 * [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Artificial Moral Agents & [presentation](https://docs.google.com/presentation/d/1GGrTwEHWgcR9u4jyT3kyMGWmuMf9rPpEEuinUK-NRqM/edit?usp=sharing)
 * Remote Control panel [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov20_RC_Panel.ino) & [video](https://drive.google.com/file/d/1EHngJ6X8l6sXPHnluXphrqJp7ld21_74/view?usp=share_link)
 * Finishing up the robot design: LEGO brick
@@ -85,5 +85,5 @@ Shortcut to [today's assignment](#todays-assignment)
 
 
 #### todays-assignment
-#### Week eleven | Nov 20 and 21
+#### Week fourteen | Nov 27 and 29
 * FFixed NeoPixels [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov27_RC_Panel.ino) & added new graphics
