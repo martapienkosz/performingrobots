@@ -86,4 +86,4 @@ Shortcut to [today's assignment](#todays-assignment)
 
 #### todays-assignment
 #### Week fourteen | Nov 27 and 29
-* FFixed NeoPixels [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov27_RC_Panel.ino) & added new graphics
+* Fixed NeoPixels [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov27_RC_Panel.ino) & added new graphics
