@@ -472,6 +472,7 @@ void loop() {
         matrix.clear();
         for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
           matrix.setPixelColor(standard[i], matrix.Color(255, 255, 0));     // draw yellow electric symbol
+        }
         matrix.show();
 
         break;
