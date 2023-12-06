@@ -91,7 +91,8 @@ Shortcut to [today's assignment](#todays-assignment)
 
 #### todays-assignment
 #### Week fourteen | Dec 4 and 6
-* Rehearsing the play and building up the final cod
+* Rehearsing the play and building up the final code
 * Recording sounds
 * Working on Robot's design
+
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo1.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo2.jpg" width="266"> 
