@@ -85,50 +85,50 @@
       delay(200);
     
     // robot moving forward and in reverse using Hobby RC controller
-      if (rc_values[RC_CH3] > 1700) forward();
-      if (rc_values[RC_CH3] < 1300) reverse();
+      if (rc_values[RC_CH3] > 1700) forward(map(rc_values[RC_CH3], 1700, 2300, 0, 255));
+      if (rc_values[RC_CH3] < 1300) reverse(map(rc_values[RC_CH3], 300, 1300, 0, 255));
       if ((rc_values[RC_CH3] < 1700) && (rc_values[RC_CH3] > 1300)) stop();
     
     // robot moving right and left using Hobby RC controller
     
-      if (rc_values[RC_CH4] > 1700) right();
-      if (rc_values[RC_CH4] < 1300) left ();
+      if (rc_values[RC_CH4] > 1700) right(map(rc_values[RC_CH4], 1700, 3000, 0, 255));
+      if (rc_values[RC_CH4] < 1300) left (map(rc_values[RC_CH4], 0, 1300, 0, 255));
     
     }
     
-    void forward() {
+    void forward(int value) {
     
-     digitalWrite(IN1_PIN, LOW);
-     digitalWrite(IN2_PIN, HIGH);
-     digitalWrite(IN3_PIN, LOW);
-     digitalWrite(IN4_PIN, HIGH);
+     analogWrite(IN1_PIN, 0);
+     analogWrite(IN2_PIN, value);
+     analogWrite(IN3_PIN, 0);
+     analogWrite(IN4_PIN, value);
       
     }
     
-    void reverse() {
+    void reverse(int value) {
     
-     digitalWrite(IN1_PIN, HIGH);
-     digitalWrite(IN2_PIN, LOW);
-     digitalWrite(IN3_PIN, HIGH);
-     digitalWrite(IN4_PIN, LOW);
+     analogWrite(IN1_PIN, value);
+     analogWrite(IN2_PIN, 0);
+     analogWrite(IN3_PIN, value);
+     analogWrite(IN4_PIN, 0);
       
     }
     
-    void right() {
+    void right(int value) {
     
-     digitalWrite(IN1_PIN, LOW);
-     digitalWrite(IN2_PIN, HIGH);
-     digitalWrite(IN3_PIN, LOW);
-     digitalWrite(IN4_PIN, LOW);
+     analogWrite(IN1_PIN, 0);
+     analogWrite(IN2_PIN, value);
+     analogWrite(IN3_PIN, 0);
+     analogWrite(IN4_PIN, 0);
       
     }
     
-    void left() {
+    void left(int value) {
     
-     digitalWrite(IN1_PIN, LOW);
-     digitalWrite(IN2_PIN, LOW);
-     digitalWrite(IN3_PIN, LOW);
-     digitalWrite(IN4_PIN, HIGH);
+     analogWrite(IN1_PIN, 0);
+     analogWrite(IN2_PIN, 0);
+     analogWrite(IN3_PIN, 0);
+     analogWrite(IN4_PIN, value);
       
     }
     

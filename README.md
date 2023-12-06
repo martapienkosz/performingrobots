@@ -84,7 +84,14 @@ Shortcut to [today's assignment](#todays-assignment)
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_1.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_2.JPG" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/lego_3.JPG" width="266">
 
 
-#### todays-assignment
 #### Week fourteen | Nov 27 and 29
 * Adding new graphics for NeoPixels [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Nov27_RC_Panel.ino) & [video](https://drive.google.com/file/d/1VS-3n1RD5eg-DwTycg0NzsmYi9hJwY5T/view?usp=share_link)
 * Fixing the motors [video](https://drive.google.com/file/d/1ekQqoiuFkdiwT4i-7bjXzyFZ_Ondl7W0/view?usp=share_link)
+
+
+#### todays-assignment
+#### Week fourteen | Dec 4 and 6
+* Rehearsing the play and building up the final cod
+* Recording sounds
+* Working on Robot's design
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo1.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo2.jpg" width="266"> 
