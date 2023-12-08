@@ -96,7 +96,7 @@ Shortcut to [today's assignment](#todays-assignment)
 
 #### todays-assignment
 #### Week fifteen | Dec 4 and 6
-* Rehearsing the play and building up the final [play code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec8_RC_Panel)
+* Rehearsing the play and building up the final [play code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec8_RC_Panel.ino)
 * Recording [sounds](https://github.com/martapienkosz/performingrobots/tree/main/sounds)
 * Fine-tunning Robot's design
 
@@ -104,5 +104,5 @@ Shortcut to [today's assignment](#todays-assignment)
 
 #### Week sixteen | Dec 10, Dec 11 and 13
 * Adding new graphics for NeoPixels
-* Fixing robot's stability and smoothing out the motion [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec10_RC_Control)
+* Fixing robot's stability and smoothing out the motion [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec10_RC_Control.ino)
 * Rehearsing the play with other robots
