@@ -1,6 +1,11 @@
 # performingrobots by Marta Pienkosz
 Shortcut to [today's assignment](#todays-assignment)
 
+#### Papers
+* [Artist Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper1_NamJunePaik/README.md) on Nam June Paik
+* [Robot Ethics Paper](https://github.com/martapienkosz/performingrobots/blob/main/paper2_ArtificialMoralAgents/README.md) on Artificial Moral Agents
+
+
 #### Week three | Sep 11 & 13
 <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/firstSketch.png" width="800">
 
@@ -90,9 +95,14 @@ Shortcut to [today's assignment](#todays-assignment)
 
 
 #### todays-assignment
-#### Week fourteen | Dec 4 and 6
-* Rehearsing the play and building up the final code
+#### Week fifteen | Dec 4 and 6
+* Rehearsing the play and building up the final [play code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec8_RC_Panel)
 * Recording [sounds](https://github.com/martapienkosz/performingrobots/tree/main/sounds)
-* Working on Robot's design
+* Fine-tunning Robot's design
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo1.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo2.jpg" width="266"> 
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo1.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo2.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo3.jpg" width="266"> 
+
+#### Week sixteen | Dec 10, Dec 11 and 13
+* Adding new graphics for NeoPixels
+* Fixing robot's stability and smoothing out the motion [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec10_RC_Control)
+* Rehearsing the play with other robots
