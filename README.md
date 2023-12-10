@@ -96,13 +96,12 @@ Shortcut to [today's assignment](#todays-assignment)
 
 #### todays-assignment
 #### Week fifteen | Dec 4 and 6
-* Rehearsing the play and building up the final [play code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec8_RC_Panel.ino)
+* Rehearsing the play and building up the final [play code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec8_RC_Panel.ino) & [video](https://drive.google.com/file/d/1XfFS-m97b65ScCJNam_5kfNvpnN0Vynt/view?usp=share_link)
 * Recording [sounds](https://github.com/martapienkosz/performingrobots/tree/main/sounds)
 * Fine-tunning Robot's design
 
-<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo1.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo2.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo3.jpg" width="266"> 
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo1.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo4.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/robo5.jpg" width="266"> 
 
 #### Week sixteen | Dec 10, Dec 11 and 13
-* Adding new graphics for NeoPixels
 * Fixing robot's stability and smoothing out the motion [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec10_RC_Control.ino)
 * Rehearsing the play with other robots
