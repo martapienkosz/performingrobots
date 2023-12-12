@@ -109,8 +109,9 @@ void setupRF24Common() {
   radio.setPALevel(RF24_POWER_LEVEL);
 }
 
-// Transmitter code
 /*
+// Transmitter code
+
 // Transmitter pin usage
 const int LCD_RS_PIN = 3, LCD_EN_PIN = 2, LCD_D4_PIN = 4, LCD_D5_PIN = 5, LCD_D6_PIN = 6, LCD_D7_PIN = 7;
 const int SW1_PIN = 8, SW2_PIN = 9, SW3_PIN = 10, SW4_PIN = A3, SW5_PIN = A2;
@@ -122,7 +123,7 @@ const int SW1_PIN = 8, SW2_PIN = 9, SW3_PIN = 10, SW4_PIN = A3, SW5_PIN = A2;
 LiquidCrystal lcd(LCD_RS_PIN, LCD_EN_PIN, LCD_D4_PIN, LCD_D5_PIN, LCD_D6_PIN, LCD_D7_PIN);
 
 
-const int NUM_OF_STATES = 20;
+const int NUM_OF_STATES = 22;
 char *theStates[] = {"0 starting setup",
                      "1 neck center",
                      "2 neck left",
@@ -143,6 +144,8 @@ char *theStates[] = {"0 starting setup",
                      "17 electric eyes",
                      "18 lego eyes",
                      "19 standard eyes",
+                     "20 agreed",
+                     "21 stop audio",
                     };
 
 void updateLCD() {
@@ -343,17 +346,18 @@ const int NECK_LEFT = 60;
 const int NECK_RIGHT = 180;
 const int NECK_CENTER = 130;
 
-#define BLACK    0x0000
-#define BLUE     0x001F
-#define RED      0xF800
-#define GREEN    0x07E0
-#define CYAN     0x07FF
-#define MAGENTA  0xF81F
-#define YELLOW   0xFFE0 
-#define WHITE    0xFFFF
+#define BLACK 0x0000
+#define BLUE 0x001F
+#define RED 0xF800
+#define GREEN 0x07E0
+#define CYAN 0x07FF
+#define MAGENTA 0xF81F
+#define YELLOW 0xFFE0
+#define WHITE 0xFFFF
 
 const uint16_t colors[] = {
-  matrix.Color(255, 0, 0), matrix.Color(0, 255, 0), matrix.Color(0, 0, 255) };
+  matrix.Color(255, 0, 0), matrix.Color(0, 255, 0), matrix.Color(0, 0, 255)
+};
 
 void setup() {
   Serial.begin(9600);
@@ -444,10 +448,26 @@ void flashNeoPixels() {
 
 
 int heart[] = { 9, 10, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 50, 51, 52, 53, 59, 60, 73, 74, 77, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 105, 106, 107, 108, 109, 110, 114, 115, 116, 117, 123, 124 };
+//int heartnegative[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 15, 40, 47, 48, 49, 54, 55, 56, 57, 58, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 75, 76, 79, 104, 111, 112, 113, 118, 119, 120, 121, 122, 125, 126, 127, 128};
 int standard[] = { 10, 11, 12, 13, 17, 22, 28, 35, 37, 43, 44, 45, 52, 74, 75, 76, 77, 81, 86, 91, 98, 100, 106, 107, 108, 115 };
 int electric[] = { 4, 5, 11, 12, 18, 19, 25, 26, 27, 28, 29, 30, 33, 34, 35, 36, 37, 38, 44, 45, 51, 52, 58, 59, 68, 69, 75, 76, 82, 83, 89, 90, 91, 92, 93, 94, 97, 98, 99, 100, 101, 102, 108, 109, 115, 116, 122, 123 };
-int lego[] = { 9, 13, 14, 15, 17, 21, 25, 29, 33, 37, 38, 39, 41, 46, 49, 53, 57, 58, 59, 61, 62, 63,72, 73, 74, 76, 77, 78, 80, 84, 86, 88, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 113, 114, 116, 117, 118};
-int sad[] =  {2, 3, 10, 11, 12, 20, 21, 29, 30, 37, 38, 44, 45, 50, 51, 52, 58, 59, 68, 69, 75, 76, 77, 82, 83, 89, 90, 97, 98, 106, 107, 115, 116, 117, 124, 125};
+int lego[] = { 9, 13, 14, 15, 17, 21, 25, 29, 33, 37, 38, 39, 41, 45, 49, 50, 51, 53, 54, 55, 72, 73, 74, 76, 77, 78, 80, 84, 86, 88, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 113, 114, 116, 117, 118 };
+int L[] = { 9, 17, 25, 33, 41, 49, 50, 51 };
+int E[] = { 13, 14, 15, 21, 29, 37, 38, 39, 45, 53, 54, 55 };
+int G[] = { 72, 73, 74, 80, 88, 96, 98, 104, 106, 112, 113, 114 };
+int O[] = { 76, 77, 78, 84, 86, 92, 94, 100, 102, 108, 110, 116, 117, 118 };
+
+int sad[] = { 2, 3, 10, 11, 12, 20, 21, 29, 30, 37, 38, 44, 45, 50, 51, 52, 58, 59, 68, 69, 75, 76, 77, 82, 83, 89, 90, 97, 98, 106, 107, 115, 116, 117, 124, 125 };
+int sad2[] = { 3, 4, 11, 12, 13, 21, 22, 30, 31, 38, 39, 45, 46, 51, 52, 53, 59, 60, 67, 68, 74, 75, 76, 81, 82, 88, 89, 96, 97, 105, 106, 114, 115, 116, 123, 124 };
+
+int standardclosed[] = { 10, 11, 12, 13, 17, 22, 35, 36, 37, 43, 44, 45, 74, 75, 76, 77, 81, 86, 98, 99, 100, 106, 107, 108 };
+int heartmiddle[] = { 18, 21, 25, 26, 27, 28, 29, 30, 33, 34, 35, 36, 37, 38, 42, 43, 44, 45, 51, 52, 82, 85, 89, 90, 91, 92, 93, 94, 97, 98, 99, 100, 101, 102, 106, 107, 108, 109, 115, 116 };
+int heartsmall[] = { 26, 29, 34, 35, 36, 37, 43, 44, 90, 93, 98, 99, 100, 101, 107, 108 };
+
+int windowr[] = { 0, 1, 2, 3, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27, 64, 65, 66, 67, 72, 73, 74, 75, 80, 81, 82, 83, 88, 89, 90, 91 };
+int windowg[] = { 4, 5, 6, 7, 12, 13, 14, 15, 20, 21, 22, 23, 28, 29, 30, 31, 68, 69, 70, 71, 76, 77, 78, 79, 84, 85, 86, 87, 92, 93, 94, 95 };
+int windowb[] = { 32, 33, 34, 35, 40, 41, 42, 43, 48, 49, 50, 51, 56, 57, 58, 59, 96, 97, 98, 99, 104, 105, 106, 107, 112, 113, 114, 115, 120, 121, 122, 123 };
+int windowy[] = { 36, 37, 38, 39, 44, 45, 46, 47, 52, 53, 54, 55, 60, 61, 62, 63, 100, 101, 102, 103, 108, 109, 110, 111, 116, 117, 118, 119, 124, 125, 126, 127 };
 
 void loop() {
   // If there is data, read it,
@@ -465,9 +485,29 @@ void loop() {
         neck.write(NECK_CENTER);
 
         matrix.clear();
+
+
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
+
+          for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(standard[i], 0, 0, 255);                     // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(2500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(standardclosed) / sizeof(standardclosed[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(standardclosed[i], 0, 0, 255);                           // draw lego eyes symbol
+          }
+
+
+
+          matrix.show();
+          delay(500);
+        }
+        matrix.clear();
         for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
-         matrix.setPixelColor(standard[i], 0, 0, 255);     // draw standard eyes symbol
-        
+          matrix.setPixelColor(standard[i], 0, 0, 255);                     // draw electric eyes symbol
         }
         matrix.show();
 
@@ -487,19 +527,19 @@ void loop() {
 
         break;
 
-      case 4: // left & center 
+      case 4:  // left & center
         neck.write(NECK_LEFT);
         delay(1000);
         neck.write(NECK_CENTER);
         break;
- 
-      case 5: //right & center
+
+      case 5:  //right & center
         neck.write(NECK_RIGHT);
         delay(1000);
         neck.write(NECK_CENTER);
         break;
 
-      case 6: //crazy head movement
+      case 6:  //crazy head movement
         neck.write(NECK_LEFT);
         delay(800);
         neck.write(NECK_RIGHT);
@@ -512,6 +552,8 @@ void loop() {
 
       case 7:  //track 001
 
+
+
         neck.write(NECK_LEFT);
         delay(800);
         neck.write(NECK_RIGHT);
@@ -520,183 +562,400 @@ void loop() {
         delay(800);
         neck.write(NECK_CENTER);
 
-        matrix.clear();
-
-        for (int i = 0; i < sizeof(electric) / sizeof(electric[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(electric[i], 255, 255, 0);     // draw electric eyes symbol
-        }
-        matrix.show();
 
         Serial.println(F("Playing track 001"));
         musicPlayer.startPlayingFile("/track001.mp3");
         matrix.clear();
 
+        for (int i = 0; i < sizeof(electric) / sizeof(electric[0]); i++) {  // For each pixel...
+          matrix.setPixelColor(electric[i], 255, 255, 0);
+          matrix.show();
+          delay(30);
+          // draw electric eyes symbol
+        }
+
+
         break;
 
-      case 8: //track 002
+      case 8:  //track 002
 
-      matrix.clear();
-
-        for (int i = 0; i < sizeof(sad) / sizeof(sad[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(sad[i], 128, 0, 0);     // draw electric eyes symbol
-        }
-        matrix.show();
+        matrix.clear();
 
         Serial.println(F("Playing track 002"));
         musicPlayer.startPlayingFile("/track002.mp3");
         matrix.clear();
 
-      break;
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
 
-      
-      case 9: // track 003
-
-      matrix.clear();
-
-        for (int i = 0; i < sizeof(heart) / sizeof(heart[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(heart[i], 255, 0, 0);     // draw heart eyes symbol
+          for (int i = 0; i < sizeof(sad) / sizeof(sad[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(sad[i], 128, 0, 0);                // draw sad eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(sad2) / sizeof(sad2[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(sad2[i], 128, 0, 0);                 // draw sad eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
         }
-        matrix.show();
+
+
+
+        break;
+
+
+      case 9:  // track 003
 
         Serial.println(F("Playing track 003"));
         musicPlayer.startPlayingFile("/track003.mp3");
         matrix.clear();
 
-      break;
 
-      
-      case 10: // track 004
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
 
-      matrix.clear();
+          for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(standard[i], 0, 0, 255);                     // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(2500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(standardclosed) / sizeof(standardclosed[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(standardclosed[i], 0, 0, 255);                           // draw lego eyes symbol
+          }
 
-    
-        Serial.println(F("Playing track 004"));
-        musicPlayer.startPlayingFile("/track004.mp3");
-        
 
-      break;
 
-      
-      case 11: //track 005
-
-      matrix.clear();
-
-        for (int i = 0; i < sizeof(heart) / sizeof(heart[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(heart[i], 255, 0, 0);     // draw electric eyes symbol
+          matrix.show();
+          delay(500);
+        }
+        matrix.clear();
+        for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
+          matrix.setPixelColor(standard[i], 0, 0, 255);                     // draw electric eyes symbol
         }
         matrix.show();
+
+        break;
+
+
+      case 10:  // track 004
+
+        matrix.clear();
+
+
+        Serial.println(F("Playing track 004"));
+        musicPlayer.startPlayingFile("/track004.mp3");
+
+
+        for (int i = 0; i < sizeof(windowr) / sizeof(windowr[0]); i++) {  // For each pixel...
+          matrix.setPixelColor(windowr[i], 255, 0, 0);
+          matrix.setPixelColor(windowg[i], 0, 255, 0);
+          matrix.setPixelColor(windowb[i], 0, 0, 255);
+          matrix.setPixelColor(windowy[i], 255, 255, 0);
+          // draw electric eyes symbol
+        }
+        matrix.show();
+
+
+        break;
+
+
+      case 11:  //track 005
 
         Serial.println(F("Playing track 005"));
         musicPlayer.startPlayingFile("/track005.mp3");
+
         matrix.clear();
 
-      break;
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
 
-      
-      case 12: // standard eyes for listening to other monologues
+          for (int i = 0; i < sizeof(heart) / sizeof(heart[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(heart[i], 255, 20, 147);               // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(heartmiddle) / sizeof(heartmiddle[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(heartmiddle[i], 255, 20, 147);                     // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
 
-      matrix.clear();
+          for (int i = 0; i < sizeof(heartsmall) / sizeof(heartsmall[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(heartsmall[i], 255, 20, 147);                    // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(heartmiddle) / sizeof(heartmiddle[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(heartmiddle[i], 255, 20, 147);                     // draw lego eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+        }
+        for (int i = 0; i < sizeof(heart) / sizeof(heart[0]); i++) {  // For each pixel...
+          matrix.setPixelColor(heart[i], 255, 20, 147);               // draw electric eyes symbol
+        }
+        matrix.show();
 
+
+        break;
+
+
+      case 12:  // standard eyes for listening to other monologues
+
+        matrix.clear();
+
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
+
+          for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(standard[i], 0, 0, 255);                     // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(2500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(standardclosed) / sizeof(standardclosed[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(standardclosed[i], 0, 0, 255);                           // draw lego eyes symbol
+          }
+
+
+
+          matrix.show();
+          delay(500);
+        }
+        matrix.clear();
         for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(standard[i], 0, 255, 0);     // draw electric eyes symbol
+          matrix.setPixelColor(standard[i], 0, 0, 255);                     // draw electric eyes symbol
         }
         matrix.show();
 
-      break;
+        break;
 
-      
-      case 13: // track 006 - our monologue
 
-      matrix.clear();
+      case 13:  // track 006 - our monologue
 
-        for (int i = 0; i < sizeof(lego) / sizeof(lego[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(lego[i], matrix.Color(0, 255, 0));     // draw electric eyes symbol
-        }
-        matrix.show();
+
 
         Serial.println(F("Playing track 006"));
         musicPlayer.startPlayingFile("/track006.mp3");
         matrix.clear();
 
-      break;
+        matrix.clear();
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
+          for (int i = 0; i < sizeof(L) / sizeof(L[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(L[i], 255, 0, 255);            // draw lego eyes symbol
+          }
+          matrix.show();
+          delay(400);
+          for (int i = 0; i < sizeof(E) / sizeof(E[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(E[i], 255, 0, 255);            // draw lego eyes symbol
+          }
 
-      
-      case 14: // track 007
-
-      matrix.clear();
-
-        for (int i = 0; i < sizeof(electric) / sizeof(electric[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(electric[i], matrix.Color(0, 255, 0));     // draw electric eyes symbol
+          matrix.show();
+          delay(400);
+          for (int i = 0; i < sizeof(G) / sizeof(G[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(G[i], 255, 0, 255);            // draw lego eyes symbol
+          }
+          matrix.show();
+          delay(400);
+          for (int i = 0; i < sizeof(O) / sizeof(O[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(O[i], 255, 0, 255);            // draw lego eyes symbol
+          }
+          matrix.show();
+          delay(400);
         }
-        matrix.show();
+
+        break;
+
+
+      case 14:  // track 007
+
 
         Serial.println(F("Playing track 007"));
         musicPlayer.startPlayingFile("/track007.mp3");
         matrix.clear();
 
-      break;
+        matrix.clear();
+        for (int j = 0; j < 3; j++) {
 
-      
-      case 15: // sad eyes
-
-      matrix.clear();
-
-        for (int i = 0; i < sizeof(sad) / sizeof(sad[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(sad[i], matrix.Color(0, 255, 0));     // draw electric eyes symbol
+          for (int i = 0; i < sizeof(electric) / sizeof(electric[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(electric[i], 255, 255, 0);
+            matrix.show();
+            delay(30);
+            // draw electric eyes symbol
+          }
+          matrix.clear();
         }
-        matrix.show();
 
-      break;
+        break;
 
-      
-      case 16: // heart eyes
 
-      matrix.clear();
 
+      case 15:  // sad eyes
+
+        matrix.clear();
+
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
+
+          for (int i = 0; i < sizeof(sad) / sizeof(sad[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(sad[i], 128, 0, 0);                // draw sad eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(sad2) / sizeof(sad2[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(sad2[i], 128, 0, 0);                 // draw sad eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+        }
+
+        break;
+
+
+      case 16:  // heart eyes
+
+        matrix.clear();
+
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
+
+          for (int i = 0; i < sizeof(heart) / sizeof(heart[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(heart[i], 255, 20, 147);               // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(heartmiddle) / sizeof(heartmiddle[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(heartmiddle[i], 255, 20, 147);                     // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+
+          for (int i = 0; i < sizeof(heartsmall) / sizeof(heartsmall[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(heartsmall[i], 255, 20, 147);                    // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(heartmiddle) / sizeof(heartmiddle[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(heartmiddle[i], 255, 20, 147);                     // draw lego eyes symbol
+          }
+          matrix.show();
+          delay(500);
+          matrix.clear();
+        }
         for (int i = 0; i < sizeof(heart) / sizeof(heart[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(heart[i], 255, 0, 0);     // draw electric eyes symbol
+          matrix.setPixelColor(heart[i], 255, 20, 147);               // draw electric eyes symbol
         }
         matrix.show();
 
-      break;
 
-      case 17: // electric eyes
+        break;
 
-      matrix.clear();
+      case 17:  // electric eyes
+
+        matrix.clear();
 
         for (int i = 0; i < sizeof(electric) / sizeof(electric[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(electric[i], 255, 255, 0);     // draw electric eyes symbol
+          matrix.setPixelColor(electric[i], 255, 255, 0);
+          matrix.show();
+          delay(30);
+          // draw electric eyes symbol
         }
-        matrix.show();
+        //matrix.show();
+
         break;
-      case 18: // lego eyes
 
-      matrix.clear();
+      case 18:  // lego eyes
 
-        for (int i = 0; i < sizeof(lego) / sizeof(lego[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(lego[i], 255, 0, 255);     // draw electric eyes symbol
+        matrix.clear();
+        for (int j = 0; j < 1; j++) {
+          matrix.clear();
+          for (int i = 0; i < sizeof(L) / sizeof(L[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(L[i], 255, 0, 255);            // draw lego eyes symbol
+          }
+          matrix.show();
+          delay(400);
+          for (int i = 0; i < sizeof(E) / sizeof(E[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(E[i], 255, 0, 255);            // draw lego eyes symbol
+          }
+
+          matrix.show();
+          delay(400);
+          for (int i = 0; i < sizeof(G) / sizeof(G[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(G[i], 255, 0, 255);            // draw lego eyes symbol
+          }
+          matrix.show();
+          delay(400);
+          for (int i = 0; i < sizeof(O) / sizeof(O[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(O[i], 255, 0, 255);            // draw lego eyes symbol
+          }
+          matrix.show();
+          delay(400);
         }
-        matrix.show();
-      
-      break;
+
+        break;
 
 
-      case 19: // standard eyes
+      case 19:  // standard eyes
 
-      matrix.clear();
+        matrix.clear();
 
+
+        for (int j = 0; j < 3; j++) {
+          matrix.clear();
+
+          for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(standard[i], 0, 0, 255);                     // draw electric eyes symbol
+          }
+          matrix.show();
+          delay(2500);
+          matrix.clear();
+          for (int i = 0; i < sizeof(standardclosed) / sizeof(standardclosed[0]); i++) {  // For each pixel...
+            matrix.setPixelColor(standardclosed[i], 0, 0, 255);                           // draw lego eyes symbol
+          }
+
+
+
+          matrix.show();
+          delay(500);
+        }
+        matrix.clear();
         for (int i = 0; i < sizeof(standard) / sizeof(standard[0]); i++) {  // For each pixel...
-          matrix.setPixelColor(standard[i], 0, 255, 0);     // draw electric eyes symbol
+          matrix.setPixelColor(standard[i], 0, 0, 255);                     // draw electric eyes symbol
         }
         matrix.show();
-        break;
-        
 
-      
+        break;
+
+      case 20:
+
+        Serial.println(F("Playing track 008"));
+        musicPlayer.startPlayingFile("/track008.mp3");
+        matrix.clear();
+
+
+        break;
+
+      case 21:
+
+        musicPlayer.stopPlaying();
+
 
       default:
         Serial.println(F("Invalid option"));
     }
   }
 }  // end of loop()
-// end of receiver code
