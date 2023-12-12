@@ -106,13 +106,10 @@ Shortcut to [today's assignment](#todays-assignment)
 * Fixing robot's stability and smoothing out the motion [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec10_RC_Control.ino)
 * Rehearsing the play with other robots
 
-## Final Reflection
+#### Final Reflection
 * Our robot turned out to be exceptionally refined, emulating the sleek, manufactured appearance of the logo brick. It moves seamlessly, and we dedicated attention to detail to enhance its polished presentation. However, it lacks a sense of liveliness—those minor glitches that could infuse a more vibrant, lifelike quality. We've decided to animate Neopixels to infuse more vitality into it, introducing the blinking of the eyes and the pulsating beating of the heart.
 I believe that in the future, we should aim to introduce slight imperfections, noise, and scratches to imbue it with a sense of personal character.
 * I believe we've meticulously planned and executed our robot, achieving continuous progress every week. This approach has allowed us to make deliberate decisions and bring the robot to life as envisioned.
-* During the programming phase, we encountered some challenges with Neopixels. Initially, we struggled to display the image on both matrices despite specifying an array size of `128`. Eventually, we realized that we needed to change '8 x 8' to '8 x 16' in this part of the code:
-```
-Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(8, 16, NEOPIXELPIN, NEO_MATRIX_TOP + NEO_MATRIX_RIGHT + NEO_MATRIX_COLUMNS + NEO_MATRIX_PROGRESSIVE,NEO_GRB + NEO_KHZ800);
-```
-* Additionally, we faced issues with color display despite specifying the colors. This snipped worked for our previous assignments `pixels.setPixelColor(electric[i], pixels.Color(255, 255, 0))`. We have decided to adapted it for the `matrix object`— `matrix.setPixelColor(standard[i], matrix.Color(255, 255, 0))`. 
-* It was only after a debugging for a while that we realized that `matrix.setPixelColor` should take four parameters `n, r, g, b`. Hence the correct syntax: `matrix.setPixelColor(standard[i], 255, 255, 0)`. This helped resolve our challenges with color display.
+* During the programming phase, we encountered some challenges with Neopixels. Initially, we struggled to display the image on both matrices despite specifying an array size of `128`. Eventually, we realized that we needed to change '8 x 8' to '8 x 16' in this part of the code: `Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(8, 16, NEOPIXELPIN, NEO_MATRIX_TOP + NEO_MATRIX_RIGHT....)`
+* Additionally, we faced issues with color display despite specifying the colors. This snipped worked for our previous assignments `pixels.setPixelColor(array[i], pixels.Color(255, 255, 0))`. We have decided to adapted it for the matrix object— `matrix.setPixelColor(array[i], matrix.Color(255, 255, 0))`. 
+* It was only after a debugging for a while that we realized that `matrix.setPixelColor` should take four parameters `n, r, g, b`. Hence the correct syntax: `matrix.setPixelColor(array[i], 255, 255, 0)`. This helped resolve our challenges with color display.
