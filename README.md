@@ -106,6 +106,8 @@ Shortcut to [today's assignment](#todays-assignment)
 * Fixing robot's stability and smoothing out the motion [code](https://github.com/martapienkosz/performingrobots/blob/main/code/Dec10_RC_Control.ino)
 * Rehearsing the play with other robots
 
+<img src="https://github.com/martapienkosz/performingrobots/blob/main/images/rehearsal1.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/rehearsal2.jpg" width="266"> <img src="https://github.com/martapienkosz/performingrobots/blob/main/images/rehearsal3.jpg" width="266"> 
+
 #### Final Reflection
 * Our robot turned out to be exceptionally refined, emulating the sleek, manufactured appearance of the logo brick. It moves seamlessly, and we dedicated attention to detail to enhance its polished presentation. However, it lacks a sense of liveliness—those minor glitches that could infuse a more vibrant, lifelike quality. We've decided to animate Neopixels to infuse more vitality into it, introducing the blinking of the eyes and the pulsating beating of the heart.
 I believe that in the future, we should aim to introduce slight imperfections, noise, and scratches to imbue it with a sense of personal character.
